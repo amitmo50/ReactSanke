@@ -1,0 +1,16 @@
+.cell {
+    width: 30px;
+    height: 30px;
+}
+.border {
+  background-color: #2A1B3D;
+}
+.snack {
+  background-color: rgb(102, 10, 10);
+}
+.snake {
+  background-color: rgb(92, 243, 92);
+}
+.crash{
+  background-color: red;
+}

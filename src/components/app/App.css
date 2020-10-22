@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.heading{
+  font-family: 'Monoton', cursive;
+  font-weight: 100;
+  font-size: 6rem;
+  color: #D83F87;
+  margin: 2% 0 1% 0;
+}

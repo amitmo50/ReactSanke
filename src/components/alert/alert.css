@@ -1,0 +1,63 @@
+.alert{
+    width: 900px;
+    height: 600px;
+    border-radius: 6px;
+    background-color: #A4B3B6;
+    position: absolute;
+    right: 25%;
+    top:25%;
+    
+}
+.alert-heading{
+    font-family: 'Monoton', cursive;
+    font-weight: 100;
+    font-size: 3rem;
+    text-align: center;
+    color: #D83F87;
+    position: relative;
+    top:1%;
+    display:block;
+
+}
+.snake-image{
+    width:35%;
+    position: relative;
+    top:5%;
+    left: 30%;
+    display:block;
+}
+.start-btn{
+    position: relative;
+    top:20%;
+    font-family: 'Monoton', cursive;
+    font-weight: 100;
+    font-size: 1rem;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    background-color: Transparent;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+.start-btn:hover{
+    color:#D83F87;
+    background-color: #2A1B3D;
+
+}
+
+.alert {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+  
+@keyframes slidein {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 25%;
+    }
+}

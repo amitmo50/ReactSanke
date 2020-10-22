@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.board-game{
+    border-style: outset;
+    border-color: #2A1B3D;
+    width: 1000px; 
+    height: 727px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
